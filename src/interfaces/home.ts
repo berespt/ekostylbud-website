@@ -2,9 +2,7 @@ export interface HomeAttributes {
   hero_title: string;
   hero_description: string;
   hero_image: string;
-  feature_version: number;
   feature_title: string;
-  feature_description: string;
   features: Feature[];
   steps_version: number;
   steps: Step[];

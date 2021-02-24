@@ -23,9 +23,7 @@ const HomePage: NextPage<Props> = ({ content }) => {
           image={attributes.hero_image}
         />
         <FeatureSection
-          version={attributes.feature_version}
           title={attributes.feature_title}
-          description={attributes.feature_description}
           features={attributes.features}
         />
       </Layout>

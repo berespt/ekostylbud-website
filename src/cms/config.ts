@@ -35,21 +35,8 @@ export default {
               widget: 'image',
             },
             {
-              label: 'Feature Section Version',
-              name: 'feature_version',
-              widget: 'number',
-              value_type: 'int',
-              min: 1,
-              max: 3,
-            },
-            {
               label: 'Feature Title',
               name: 'feature_title',
-              widget: 'string',
-            },
-            {
-              label: 'Feature Description',
-              name: 'feature_description',
               widget: 'string',
             },
             {

@@ -2,28 +2,24 @@
 hero_title: Usługi budowlano-remontowe
 hero_description: Wykończenia wnętrz na rynku pierwotnym i wtórnym w Krakowie i okolicach
 hero_image: img/serverless-saas.jpg
-feature_version: 1
-feature_title: Our amazing features
-feature_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-  minim veniam, quis nostrud exercitation ullamco.
+feature_title: Opinie naszych klientów
 features:
   - description: >+
-      Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy.
-      Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS
-      try-hard.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+      minim veniam, quis nostrud exercitation ullamco.
 
-    name: Shooting Stars
+    name: Jan Kowalski
   - description: >+
-      Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy.
-      Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS
-      try-hard.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+      minim veniam, quis nostrud exercitation ullamco.
 
-    name: The Catalyzer
-  - description: Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-      taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug
-      VHS try-hard.
-    name: Neptune
+    name: Janina Nowak
+  - description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+      minim veniam, quis nostrud exercitation ullamco.
+    name: Adam Adamski
 steps_version: 1
 steps:
   - description: >+
