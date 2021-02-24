@@ -1,10 +1,6 @@
 ---
-hero_version: 1
-hero_title: Build a SaaS faster than ever
-hero_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-  do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-  minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-  commodo consequat.
+hero_title: Usługi budowlano-remontowe
+hero_description: Wykończenia wnętrz na rynku pierwotnym i wtórnym w Krakowie i okolicach
 hero_image: img/serverless-saas.jpg
 feature_version: 1
 feature_title: Our amazing features

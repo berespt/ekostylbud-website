@@ -18,7 +18,6 @@ const HomePage: NextPage<Props> = ({ content }) => {
       <SEO />
       <Layout>
         <HeroSection
-          version={attributes.hero_version}
           title={attributes.hero_title}
           description={attributes.hero_description}
           image={attributes.hero_image}

@@ -1,5 +1,4 @@
 export interface HomeAttributes {
-  hero_version: number;
   hero_title: string;
   hero_description: string;
   hero_image: string;

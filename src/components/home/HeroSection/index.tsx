@@ -1,33 +1,47 @@
-import Hero1 from './Hero1';
-import Hero2 from './Hero2';
-import Hero3 from './Hero3';
-
 interface Props {
-  version: number;
   title: string;
   description: string;
   image: string;
 }
 
 const HeroSection: React.FC<Props> = ({
-  version,
   title,
   description,
   image,
 }): JSX.Element => {
-  // List of different component versions. You can easily switch between versions from the CMS.
-  const components = {
-    1: Hero1,
-    2: Hero2,
-    3: Hero3,
-  };
-
-  // Use the version prop to determine which component to render. Fallback to 1.
-  const HeroComponent = components[version] || components[1];
-
-  // Default return version 1 (with hero image on the right)
   return (
-    <HeroComponent title={title} description={description} image={image} />
+    <section className="text-gray-700 body-font">
+      <div className="container flex flex-col items-center px-5 py-24 mx-auto md:flex-row">
+        <div className="flex flex-col items-center mb-16 text-center lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:items-start md:text-left md:mb-0">
+          <h1 className="mb-4 text-3xl font-bold text-gray-900 title-font sm:text-4xl">
+            {title}
+          </h1>
+          <p className="mb-8 leading-relaxed">{description}</p>
+          <div className="flex justify-center">
+            <a
+              href="#features"
+              className="inline-flex px-6 py-2 text-lg text-white bg-indigo-500 border-0 rounded focus:outline-none hover:bg-indigo-600"
+            >
+              Nasze usługi
+            </a>
+            <a
+              href="#pricing"
+              className="inline-flex px-6 py-2 ml-4 text-lg text-gray-700 bg-gray-200 border-0 rounded focus:outline-none hover:bg-gray-300"
+            >
+              Realizacje
+            </a>
+          </div>
+        </div>
+        <div className="w-5/6 lg:max-w-lg lg:w-full md:w-1/2">
+          <img
+            className="object-cover object-center rounded-lg"
+            alt="hero"
+            src={image}
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </section>
   );
 };
 
