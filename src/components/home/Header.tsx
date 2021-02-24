@@ -10,24 +10,21 @@ const Header = (): JSX.Element => {
           </a>
         </Link>
         <nav className="flex flex-wrap items-center justify-center text-base md:ml-auto md:py-1 md:pl-4">
-          <a
-            href="#"
-            className="mr-5 text-base text-gray-600 hover:text-gray-800"
-          >
-            Nasze usługi
-          </a>
-          <a
-            href="#"
-            className="mr-5 text-base text-gray-600 hover:text-gray-800"
-          >
-            Realizacje
-          </a>
-          <a
-            href="#"
-            className="mr-5 text-base text-gray-600 hover:text-gray-800"
-          >
-            Kontakt
-          </a>
+          <Link href="/services">
+            <a className="mr-5 text-base text-gray-600 hover:text-gray-800">
+              Nasze usługi
+            </a>
+          </Link>
+          <Link href="/portfolio">
+            <a className="mr-5 text-base text-gray-600 hover:text-gray-800">
+              Realizacje
+            </a>
+          </Link>
+          <Link href="/contact">
+            <a className="mr-5 text-base text-gray-600 hover:text-gray-800">
+              Kontakt
+            </a>
+          </Link>
         </nav>
       </div>
     </header>
