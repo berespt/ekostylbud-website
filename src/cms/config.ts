@@ -5,6 +5,7 @@ export default {
     repo: 'berespt/ekostylbud-website',
     branch: 'master',
   },
+  locale: 'pl',
   media_folder: 'public/img',
   public_folder: 'img',
   logo_url: 'https://ekostylbud.netlify.app/img/logo-cms.jpg',
