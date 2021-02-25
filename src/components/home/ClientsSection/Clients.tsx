@@ -1,14 +1,14 @@
 import { getIcon } from 'utils/getIcon';
-import { Feature } from 'interfaces/home';
+import { Client } from 'interfaces/home';
 
 interface Props {
-  features: Feature[];
+  clients: Client[];
 }
 
-const Features: React.FC<Props> = ({ features }) => {
+const Clients: React.FC<Props> = ({ clients }) => {
   return (
     <div className="flex flex-wrap -m-4">
-      {features?.map((feature: Feature, i: number) => {
+      {clients?.map((client: Client, i: number) => {
         return (
           <div className="p-4 md:w-1/3" key={i}>
             <div className="flex flex-col h-full p-8 bg-gray-100 rounded-lg">
@@ -17,12 +17,12 @@ const Features: React.FC<Props> = ({ features }) => {
                   {getIcon(1, 5)}
                 </div>
                 <h2 className="text-lg font-medium text-gray-900 title-font">
-                  {feature.name}
+                  {client.name}
                 </h2>
               </div>
               <div className="flex-grow">
                 <p className="text-base leading-relaxed">
-                  {feature.description}
+                  {client.description}
                 </p>
               </div>
             </div>
@@ -33,4 +33,4 @@ const Features: React.FC<Props> = ({ features }) => {
   );
 };
 
-export default Features;
+export default Clients;

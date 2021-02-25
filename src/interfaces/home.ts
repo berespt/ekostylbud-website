@@ -2,8 +2,8 @@ export interface HomeAttributes {
   hero_title: string;
   hero_description: string;
   hero_image: string;
-  feature_title: string;
-  features: Feature[];
+  client_title: string;
+  clients: Client[];
   steps_version: number;
   steps: Step[];
   steps_image: string;
@@ -20,7 +20,7 @@ export interface HomeAttributes {
   posts: string[];
 }
 
-export interface Feature {
+export interface Client {
   name: string;
   description: string;
 }

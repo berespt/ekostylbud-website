@@ -1,17 +1,17 @@
 import { ComponentType } from 'react';
 import HeroSection from 'components/home/HeroSection';
-import FeatureSection from 'components/home/FeatureSection';
+import ClientSection from 'components/home/ClientsSection';
 import StepsSection from 'components/home/StepsSection';
 import TeamSection from 'components/home/TeamSection';
 import PricingSection from 'components/home/PricingSection';
 import BlogSection from 'components/home/BlogSection';
 
 const HomePreview: ComponentType<any> = ({ entry, widgetsFor }) => {
-  const features = [];
-  widgetsFor('features').map((feature) => {
-    features.push({
-      name: feature?.getIn(['data', 'name']),
-      description: feature?.getIn(['data', 'description']),
+  const clients = [];
+  widgetsFor('clients').map((client) => {
+    clients.push({
+      name: client?.getIn(['data', 'name']),
+      description: client?.getIn(['data', 'description']),
     });
   });
 
@@ -55,9 +55,9 @@ const HomePreview: ComponentType<any> = ({ entry, widgetsFor }) => {
         description={entry.getIn(['data', 'hero_description'])}
         image={entry.getIn(['data', 'hero_image'])}
       />
-      <FeatureSection
-        title={entry.getIn(['data', 'feature_title'])}
-        features={features}
+      <ClientSection
+        title={entry.getIn(['data', 'client_title'])}
+        clients={clients}
       />
       <StepsSection
         version={entry.getIn(['data', 'steps_version'])}

@@ -3,7 +3,7 @@ import { NextPage, GetStaticProps } from 'next';
 import SEO from 'components/home/SEO';
 import HeroSection from 'components/home/HeroSection';
 import Layout from 'components/home/Layout';
-import FeatureSection from 'components/home/FeatureSection';
+import ClientsSection from 'components/home/ClientsSection';
 import { HomeAttributes } from 'interfaces/home';
 import { useEffect } from 'react';
 import netlifyIdentity from 'netlify-identity-widget';
@@ -23,9 +23,9 @@ const HomePage: NextPage<Props> = ({ content }) => {
           description={attributes.hero_description}
           image={attributes.hero_image}
         />
-        <FeatureSection
-          title={attributes.feature_title}
-          features={attributes.features}
+        <ClientsSection
+          title={attributes.client_title}
+          clients={attributes.clients}
         />
       </Layout>
     </>

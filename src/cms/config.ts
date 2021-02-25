@@ -36,13 +36,13 @@ export default {
               widget: 'image',
             },
             {
-              label: 'Feature Title',
-              name: 'feature_title',
+              label: 'Client title',
+              name: 'client_title',
               widget: 'string',
             },
             {
-              label: 'Features',
-              name: 'features',
+              label: 'Clients',
+              name: 'clients',
               widget: 'list',
               fields: [
                 {
