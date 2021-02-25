@@ -10,6 +10,11 @@ const Header = (): JSX.Element => {
           </a>
         </Link>
         <nav className="flex flex-wrap items-center justify-center text-base md:ml-auto md:py-1 md:pl-4">
+          <Link href="/">
+            <a className="mr-5 text-base text-gray-600 hover:text-gray-800">
+              Strona główna
+            </a>
+          </Link>
           <Link href="/services">
             <a className="mr-5 text-base text-gray-600 hover:text-gray-800">
               Nasze usługi

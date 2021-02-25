@@ -59,6 +59,33 @@ export default {
             },
           ],
         },
+        {
+          label: 'Nasze usługi',
+          name: 'services',
+          file: 'src/content/pages/services.md',
+          fields: [
+            {
+              label: 'Główny nagłowek',
+              name: 'services_title',
+              widget: 'string',
+            },
+            {
+              label: 'Główny opis',
+              name: 'services_description',
+              widget: 'markdown',
+            },
+            {
+              label: 'Główny obrazek',
+              name: 'services_image',
+              widget: 'image',
+            },
+            {
+              label: 'Usługi',
+              name: 'services',
+              widget: 'list',
+            },
+          ],
+        },
       ],
     },
     {

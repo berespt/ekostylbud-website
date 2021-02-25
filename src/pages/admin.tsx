@@ -2,6 +2,7 @@ import dynamic from 'next/dynamic';
 
 import config from 'cms/config';
 import HomePreview from 'cms/previews/HomePreview';
+import ServicesPreview from 'cms/previews/ServicesPreview';
 import PostPreview from 'cms/previews/PostPreview';
 import Spinner from 'components/icons/Spinner';
 import netlifyIdentity from 'netlify-identity-widget';
@@ -17,6 +18,7 @@ const CMS = dynamic(
         'https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css'
       );
       cms.registerPreviewTemplate('home', HomePreview);
+      cms.registerPreviewTemplate('services', ServicesPreview);
       cms.registerPreviewTemplate('posts', PostPreview);
     }),
   {
