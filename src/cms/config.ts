@@ -7,8 +7,8 @@ export default {
   },
   media_folder: 'public/img',
   public_folder: 'img',
-  logo_url: 'https://demo.serverless.page/img/logo-cms.jpg',
-  site_url: 'https://demo.serverless.page',
+  logo_url: 'https://ekostylbud.netlify.app/img/logo-cms.jpg',
+  site_url: 'https://ekostylbud.netlify.app',
   collections: [
     {
       name: 'pages',
