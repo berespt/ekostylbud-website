@@ -1,6 +1,12 @@
 ---
 services_title: Mieszkania wykańczane pod klucz w oparciu o Twój własny projekt lub pomysł
-services_description: Wykonujemy całościowe remonty mieszkań i domów od stanu deweloperskiego do zamieszkania. Mieszkanie z rynku wtórego? Zajmiemy się remontem, włącznie z wyburzeniami starych i budową nowych ścian oraz zmianą instalacji.
+services_description: >-
+  Wykonujemy całościowe remonty mieszkań i domów od stanu deweloperskiego do
+  zamieszkania.
+
+
+  Mieszkanie z rynku wtórego? Zajmiemy się remontem, włącznie z wyburzeniami starych i budową nowych ścian oraz zmianą instalacji.
+services_image: img/xps-ezyq1hol5_8-unsplash.jpg
 services:
   - Gładzie
   - Malowanie
