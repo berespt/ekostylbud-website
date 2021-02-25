@@ -3,6 +3,7 @@ import dynamic from 'next/dynamic';
 import config from 'cms/config';
 import HomePreview from 'cms/previews/HomePreview';
 import ServicesPreview from 'cms/previews/ServicesPreview';
+import ContactPreview from 'cms/previews/ContactPreview';
 import PostPreview from 'cms/previews/PostPreview';
 import Spinner from 'components/icons/Spinner';
 import netlifyIdentity from 'netlify-identity-widget';
@@ -19,6 +20,7 @@ const CMS = dynamic(
       );
       cms.registerPreviewTemplate('home', HomePreview);
       cms.registerPreviewTemplate('services', ServicesPreview);
+      cms.registerPreviewTemplate('contact', ContactPreview);
       cms.registerPreviewTemplate('posts', PostPreview);
     }),
   {

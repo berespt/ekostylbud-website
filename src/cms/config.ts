@@ -86,6 +86,43 @@ export default {
             },
           ],
         },
+        {
+          label: 'Kontakt',
+          name: 'contact',
+          file: 'src/content/pages/contact.md',
+          fields: [
+            {
+              label: 'Główny nagłowek',
+              name: 'contact_title',
+              widget: 'string',
+            },
+            {
+              label: 'Główny opis',
+              name: 'contact_description',
+              widget: 'markdown',
+            },
+            {
+              label: 'Główny obrazek',
+              name: 'contact_image',
+              widget: 'image',
+            },
+            {
+              label: 'Adres',
+              name: 'contact_address',
+              widget: 'string',
+            },
+            {
+              label: 'Telefon',
+              name: 'contact_phone',
+              widget: 'string',
+            },
+            {
+              label: 'Email',
+              name: 'contact_email',
+              widget: 'string',
+            },
+          ],
+        },
       ],
     },
     {
