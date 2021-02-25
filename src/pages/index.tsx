@@ -5,14 +5,15 @@ import HeroSection from 'components/home/HeroSection';
 import Layout from 'components/home/Layout';
 import FeatureSection from 'components/home/FeatureSection';
 import { HomeAttributes } from 'interfaces/home';
-
+import { useEffect } from 'react';
+import netlifyIdentity from 'netlify-identity-widget';
 interface Props {
   content: { attributes: HomeAttributes };
 }
 
 const HomePage: NextPage<Props> = ({ content }) => {
   const { attributes } = content;
-
+  useEffect(() => netlifyIdentity.init(), []);
   return (
     <>
       <SEO />
