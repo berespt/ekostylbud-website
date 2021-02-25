@@ -13,45 +13,45 @@ export default {
   collections: [
     {
       name: 'pages',
-      label: 'Pages',
+      label: 'Strony',
       files: [
         {
-          label: 'Home',
+          label: 'Strona główna',
           name: 'home',
           file: 'src/content/pages/home.md',
           fields: [
             {
-              label: 'Hero Title',
+              label: 'Główny nagłowek',
               name: 'hero_title',
               widget: 'string',
             },
             {
-              label: 'Hero Description',
+              label: 'Główny opis',
               name: 'hero_description',
               widget: 'markdown',
             },
             {
-              label: 'Hero Image',
+              label: 'Główny obrazek',
               name: 'hero_image',
               widget: 'image',
             },
             {
-              label: 'Client title',
+              label: 'Nagłówek - klienci',
               name: 'client_title',
               widget: 'string',
             },
             {
-              label: 'Clients',
+              label: 'Klienci',
               name: 'clients',
               widget: 'list',
               fields: [
                 {
-                  label: 'Name',
+                  label: 'Imię i Nazwisko',
                   name: 'name',
                   widget: 'string',
                 },
                 {
-                  label: 'Description',
+                  label: 'Opinia',
                   name: 'description',
                   widget: 'text',
                 },
