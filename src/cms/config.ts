@@ -123,6 +123,47 @@ export default {
             },
           ],
         },
+        {
+          label: 'Realizacje',
+          name: 'portfolio',
+          file: 'src/content/pages/portfolio.md',
+          fields: [
+            {
+              label: 'Miejsca',
+              name: 'places',
+              widget: 'list',
+              fields: [
+                {
+                  label: 'Nazwa',
+                  name: 'name',
+                  widget: 'string',
+                },
+                {
+                  label: 'Zdjęcia',
+                  name: 'images',
+                  widget: 'list',
+                  fields: [
+                    {
+                      label: 'Zdjęcie',
+                      name: 'src',
+                      widget: 'image',
+                    },
+                    {
+                      label: 'Szerokość',
+                      name: 'width',
+                      widget: 'string',
+                    },
+                    {
+                      label: 'Wysokość',
+                      name: 'height',
+                      widget: 'string',
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
       ],
     },
     {
