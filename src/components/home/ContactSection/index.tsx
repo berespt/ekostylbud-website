@@ -26,7 +26,7 @@ const ContactSection: React.FC<ContactAttributes> = ({
           <ul>
             <li className="mb-4 flex items-center">
               <svg
-                className="inline-block w-6 h-6 mr-3 text-indigo-600"
+                className="inline-block w-6 h-6 mr-3 text-ekogreen-600"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -43,7 +43,7 @@ const ContactSection: React.FC<ContactAttributes> = ({
             </li>
             <li className="mb-4 flex items-center">
               <svg
-                className="inline-block w-6 h-6 mr-3 text-indigo-600"
+                className="inline-block w-6 h-6 mr-3 text-ekogreen-600"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -60,7 +60,7 @@ const ContactSection: React.FC<ContactAttributes> = ({
             </li>
             <li className="mb-4 flex items-center">
               <svg
-                className="inline-block w-6 h-6 mr-3 text-indigo-600"
+                className="inline-block w-6 h-6 mr-3 text-ekogreen-600"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"

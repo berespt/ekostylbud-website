@@ -18,11 +18,11 @@ const PortfolioSection: React.FC<Props> = ({ places }): JSX.Element => {
             key={place.name}
             className={
               'w-1/3 pb-2 ' +
-              (i == activePlace ? 'border-b-4 border-indigo-600' : '')
+              (i == activePlace ? 'border-b-4 border-ekogreen-600' : '')
             }
           >
             <button
-              className="hover:text-indigo-600"
+              className="hover:text-ekogreen-600"
               onClick={() => setActivePlace(i)}
             >
               {place.name}
