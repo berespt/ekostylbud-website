@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from 'components/elements/Link';
 import Logo from 'components/icons/Logo';
 const Header = (): JSX.Element => {
   return (
@@ -9,24 +9,24 @@ const Header = (): JSX.Element => {
             <Logo width="200"></Logo>
           </a>
         </Link>
-        <nav className="flex flex-wrap items-center justify-center text-base md:ml-auto md:py-1 md:pl-4">
-          <Link href="/">
-            <a className="mr-5 text-base text-gray-600 hover:text-gray-800">
+        <nav className="flex flex-wrap items-center justify-center text-base md:ml-auto md:py-1 md:pl-4 mb-4">
+          <Link href="/" activeClassName="border-ekogreen-600">
+            <a className="mr-5 text-base text-gray-600 hover:text-gray-800 border-b-4 transition duration-500 border-transparent hover:border-ekogreen-700">
               Strona główna
             </a>
           </Link>
-          <Link href="/services">
-            <a className="mr-5 text-base text-gray-600 hover:text-gray-800">
+          <Link href="/services" activeClassName="border-ekogreen-600">
+            <a className="mr-5 text-base text-gray-600 hover:text-gray-800 border-b-4 transition duration-500 border-transparent hover:border-ekogreen-700">
               Nasze usługi
             </a>
           </Link>
-          <Link href="/portfolio">
-            <a className="mr-5 text-base text-gray-600 hover:text-gray-800">
+          <Link href="/portfolio" activeClassName="border-ekogreen-600">
+            <a className="mr-5 text-base text-gray-600 hover:text-gray-800 border-b-4 transition duration-500 border-transparent hover:border-ekogreen-700">
               Realizacje
             </a>
           </Link>
-          <Link href="/contact">
-            <a className="mr-5 text-base text-gray-600 hover:text-gray-800">
+          <Link href="/contact" activeClassName="border-ekogreen-600">
+            <a className="mr-5 text-base text-gray-600 hover:text-gray-800 border-b-4 transition duration-500 border-transparent hover:border-ekogreen-700">
               Kontakt
             </a>
           </Link>
