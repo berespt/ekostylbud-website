@@ -1,5 +1,5 @@
 ---
-hero_title: Usługi budowlano-remontowe
+hero_title: Usługi remontowo-budowlane
 hero_description: Wykończenia wnętrz na rynku pierwotnym i wtórnym w Krakowie i okolicach
 hero_image: img/serverless-saas.jpg
 client_title: Opinie naszych klientów
