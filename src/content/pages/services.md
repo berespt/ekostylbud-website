@@ -6,7 +6,7 @@ services_description: >-
 
 
   Mieszkanie z rynku wtórego? Zajmiemy się remontem, włącznie z wyburzeniami starych i budową nowych ścian oraz zmianą instalacji.
-services_image: img/xps-ezyq1hol5_8-unsplash.jpg
+services_image: img/undraw_QA_engineers_dg5p.svg
 services:
   - Gładzie
   - Malowanie

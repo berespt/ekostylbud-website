@@ -17,6 +17,7 @@ const ServicesSection: React.FC<Props> = ({
       <div className="flex flex-wrap px-5 py-24">
         <div className="lg:w-1/2 px-2 lg:pr-32 mb-6 lg:mb-0">
           <h2 className="text-3xl font-semibold">{title}</h2>
+          <img src={image} alt="" />
         </div>
         <div className="lg:w-1/2 px-2">
           <div className="mb-12">

@@ -16,7 +16,7 @@ const ServicesPage: NextPage<Props> = ({ content, contactInfo }) => {
         title={content.attributes.services_title}
         description={content.attributes.services_description}
         services={content.attributes.services}
-        image="img/scott-graham-5fNmWej4tAA-unsplash.jpg"
+        image={content.attributes.services_image}
       ></ServicesSection>
     </Layout>
   );
