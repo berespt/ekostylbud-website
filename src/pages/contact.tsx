@@ -4,11 +4,12 @@ import Layout from 'components/home/Layout';
 import { ContactAttributes } from 'interfaces/contact';
 interface Props {
   content: { attributes: ContactAttributes };
+  contactInfo: { attributes: ContactAttributes };
 }
 
-const ContactPage: NextPage<Props> = ({ content }) => {
+const ContactPage: NextPage<Props> = ({ content, contactInfo }) => {
   return (
-    <Layout>
+    <Layout contactInfo={contactInfo.attributes}>
       <ContactSection {...content.attributes}></ContactSection>
     </Layout>
   );
@@ -16,8 +17,11 @@ const ContactPage: NextPage<Props> = ({ content }) => {
 
 export const getStaticProps: GetStaticProps = async () => {
   const content = await import(`../content/pages/${'contact'}.md`);
+  const contactInfo = await import(`../content/pages/${'contact'}.md`);
 
-  return { props: { content: content.default } };
+  return {
+    props: { content: content.default, contactInfo: contactInfo.default },
+  };
 };
 
 export default ContactPage;

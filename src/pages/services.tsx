@@ -3,13 +3,15 @@ import Link from 'next/link';
 import ServicesSection from '../components/home/ServicesSection';
 import Layout from 'components/home/Layout';
 import { ServicesAttributes } from 'interfaces/services';
+import { ContactAttributes } from 'interfaces/contact';
 interface Props {
   content: { attributes: ServicesAttributes };
+  contactInfo: { attributes: ContactAttributes };
 }
 
-const ServicesPage: NextPage<Props> = ({ content }) => {
+const ServicesPage: NextPage<Props> = ({ content, contactInfo }) => {
   return (
-    <Layout>
+    <Layout contactInfo={contactInfo.attributes}>
       <ServicesSection
         title={content.attributes.services_title}
         description={content.attributes.services_description}
@@ -22,8 +24,11 @@ const ServicesPage: NextPage<Props> = ({ content }) => {
 
 export const getStaticProps: GetStaticProps = async () => {
   const content = await import(`../content/pages/${'services'}.md`);
+  const contactInfo = await import(`../content/pages/${'contact'}.md`);
 
-  return { props: { content: content.default } };
+  return {
+    props: { content: content.default, contactInfo: contactInfo.default },
+  };
 };
 
 export default ServicesPage;
