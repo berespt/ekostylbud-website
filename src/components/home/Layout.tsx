@@ -12,9 +12,9 @@ interface Props {
 
 const Layout: NextPage<Props> = ({ children, contactInfo }) => {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="h-screen flex flex-col bg-gray-50">
       <Header />
-      {children}
+      <div className="flex-grow">{children}</div>
       <Footer contactInfo={contactInfo} />
     </div>
   );
