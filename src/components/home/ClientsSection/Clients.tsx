@@ -1,4 +1,4 @@
-import { getIcon } from 'utils/getIcon';
+import Person from 'components/icons/Person';
 import { Client } from 'interfaces/home';
 
 interface Props {
@@ -14,7 +14,7 @@ const Clients: React.FC<Props> = ({ clients }) => {
             <div className="flex flex-col h-full p-8 bg-gray-100 rounded-lg">
               <div className="flex items-center mb-3">
                 <div className="inline-flex items-center justify-center flex-shrink-0 w-8 h-8 mr-3 text-white bg-ekogreen-700 rounded-full">
-                  {getIcon(1, 5)}
+                  <Person></Person>
                 </div>
                 <h2 className="text-lg font-medium text-gray-900 title-font">
                   {client.name}
