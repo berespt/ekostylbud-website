@@ -13,7 +13,7 @@ const Clients: React.FC<Props> = ({ clients }) => {
           <div className="p-4 md:w-1/3" key={i}>
             <div className="flex flex-col h-full p-8 bg-gray-100 rounded-lg">
               <div className="flex items-center mb-3">
-                <div className="inline-flex items-center justify-center flex-shrink-0 w-8 h-8 mr-3 text-white bg-ekogreen-500 rounded-full">
+                <div className="inline-flex items-center justify-center flex-shrink-0 w-8 h-8 mr-3 text-white bg-ekogreen-700 rounded-full">
                   {getIcon(1, 5)}
                 </div>
                 <h2 className="text-lg font-medium text-gray-900 title-font">
