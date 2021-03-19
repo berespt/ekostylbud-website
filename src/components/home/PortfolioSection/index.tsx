@@ -8,7 +8,7 @@ interface Props {
 const PortfolioSection: React.FC<Props> = ({ places }): JSX.Element => {
   const [activePlace, setActivePlace] = useState(0);
   return (
-    <section className="py-12 px-4">
+    <section className="py-12 px-12">
       <h2 className="text-4xl text-center mb-8 font-semibold font-heading">
         Realizacje
       </h2>
