@@ -41,10 +41,10 @@ const Footer = ({ contactInfo }: Props): JSX.Element => {
             </Link>
           </div>
         </nav>
-        <div className="mt-8 flex justify-center">
+        <div className="mt-8 flex flex-col sm:flex-row justify-center items-center">
           <a
             href={'tel:' + contactInfo.contact_phone}
-            className="flex text-gray-400 hover:text-gray-500 group"
+            className="flex mr-0 mb-2 sm:mb-0 sm:mr-10 text-gray-400 hover:text-gray-500 group"
           >
             <span className="sr-only">Telefon</span>
             <Phone className="group-hover:opacity-100 opacity-50"></Phone>
@@ -52,7 +52,7 @@ const Footer = ({ contactInfo }: Props): JSX.Element => {
           </a>
           <a
             href={'mailto:' + contactInfo.contact_email}
-            className="flex ml-10 text-gray-400 hover:text-gray-500 group"
+            className="flex text-gray-400 hover:text-gray-500 group"
           >
             <span className="sr-only">Email</span>
             <Email className="group-hover:opacity-100 opacity-50"></Email>
