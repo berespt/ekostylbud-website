@@ -6,7 +6,7 @@ const Header = (): JSX.Element => {
       <div className="container flex flex-col flex-wrap items-center p-5 mx-auto md:flex-row md:justfy-between">
         <Link href="/">
           <a className="flex items-center mb-4 font-medium text-gray-900 title-font md:mb-0">
-            <Logo width="200"></Logo>
+            <Logo className="w-64 sm:w-96"></Logo>
           </a>
         </Link>
         <nav className="flex flex-wrap items-center justify-center text-base md:ml-auto md:py-1 md:pl-4 mb-4">
