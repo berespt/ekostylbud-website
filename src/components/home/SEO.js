@@ -2,20 +2,20 @@ import Head from 'next/head';
 
 const SEO = () => (
   <Head>
-    <title>NextWind</title>
+    <title>EkoStylBud</title>
     <meta
       name="description"
-      content="A flexible landing page + blog template"
+      content="Wykończenia wnętrz na rynku pierwotnym i wtórnym w Krakowie i okolicach"
     ></meta>
     <meta
-      content="https://serverless.page/img/serverless-saas.png"
+      content="https://ekostylbud.netlify.app/favicon/og-image.png"
       property="og:image"
     ></meta>
-    <meta content="https://serverless.page" property="og:url"></meta>
+    <meta content="https://ekostylbud.netlify.app" property="og:url"></meta>
     <meta content="website" property="og:type"></meta>
-    <meta content="NextWind" property="og:title"></meta>
+    <meta content="EkoStylBud" property="og:title"></meta>
     <meta
-      content="A flexible landing page + blog template"
+      content="Wykończenia wnętrz na rynku pierwotnym i wtórnym w Krakowie i okolicach"
       property="og:description"
     ></meta>
 
@@ -23,14 +23,14 @@ const SEO = () => (
     <meta name="twitter:title" content="NextWind"></meta>
     <meta
       name="twitter:description"
-      content="A flexible landing page + blog template"
+      content="Wykończenia wnętrz na rynku pierwotnym i wtórnym w Krakowie i okolicach"
     ></meta>
     <meta
       name="twitter:image"
       content="https://serverless.page/img/serverless-saas.png"
     ></meta>
     <meta name="twitter:card" content="summary_large_image"></meta>
-    <meta name="twitter:image:alt" content="Serverless SaaS"></meta>
+    <meta name="twitter:image:alt" content="EkoStylBud"></meta>
 
     {/* Favicon */}
     <link
