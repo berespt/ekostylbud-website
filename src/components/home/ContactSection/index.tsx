@@ -13,8 +13,8 @@ const ContactSection: React.FC<ContactAttributes> = ({
   contact_email,
 }): JSX.Element => {
   return (
-    <section className="py-12 px-12">
-      <h2 className="text-4xl text-center mb-16 font-semibold font-heading">
+    <section className="sm:py-12 px-12">
+      <h2 className="text-3xl sm:text-4xl text-center mb-16 font-semibold font-heading">
         Skontaktuj się z nami
       </h2>
       <div className="flex flex-wrap items-center -mx-6">
