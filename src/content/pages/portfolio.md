@@ -1,63 +1,66 @@
 ---
 places:
-  - name: Telimeny
-    images:
-      - src: img/undraw_under_construction_46pa.svg
-        width: "4"
-        height: 3
-      - src: https://source.unsplash.com/Dm-qxdynoEc/800x799
-        width: 1
-        height: 1
-      - src: https://source.unsplash.com/qDkso9nvCg0/600x799
-        width: 3
-        height: 4
-      - src: https://source.unsplash.com/iecJiKe_RNg/600x799
-        width: 3
-        height: 4
-      - src: https://source.unsplash.com/epcsn8Ed8kY/600x799
-        width: 3
-        height: 4
-      - src: https://source.unsplash.com/NQSWvyVRIJk/800x599
-        width: 4
-        height: 3
-      - src: https://source.unsplash.com/zh7GEuORbUw/600x799
-        width: 3
-        height: 4
-      - src: https://source.unsplash.com/PpOHJezOalU/800x599
-        width: 4
-        height: 3
-      - src: https://source.unsplash.com/I1ASdgphUH4/800x599
-        width: 4
-        height: 3
   - name: Wrocławska
     images:
-      - src: https://source.unsplash.com/epcsn8Ed8kY/600x799
-        width: 3
-        height: 4
-      - src: https://source.unsplash.com/NQSWvyVRIJk/800x599
+      - src: img/wroclawska/1.jpg
         width: 4
         height: 3
-      - src: https://source.unsplash.com/zh7GEuORbUw/600x799
-        width: 3
-        height: 4
-      - src: https://source.unsplash.com/PpOHJezOalU/800x599
+      - src: img/wroclawska/2.jpg
         width: 4
         height: 3
-      - src: https://source.unsplash.com/I1ASdgphUH4/800x599
+      - src: img/wroclawska/3.jpg
         width: 4
         height: 3
-  - name: Wiślane Tarasy
+      - src: img/wroclawska/4.jpg
+        width: 4
+        height: 3
+      - src: img/wroclawska/5.jpg
+        width: 4
+        height: 3
+      - src: img/wroclawska/6.jpg
+        width: 4
+        height: 3
+      - src: img/wroclawska/7.jpg
+        width: 4
+        height: 3
+  - name: Poznańska
     images:
-      - src: https://source.unsplash.com/2ShvY8Lf6l0/800x599
+      - src: img/poznanska/1.jpg
         width: 4
         height: 3
-      - src: https://source.unsplash.com/Dm-qxdynoEc/800x799
-        width: 1
-        height: 1
-      - src: https://source.unsplash.com/qDkso9nvCg0/600x799
-        width: 3
-        height: 4
-      - src: https://source.unsplash.com/iecJiKe_RNg/600x799
-        width: 3
-        height: 4
+      - src: img/poznanska/2.jpg
+        width: 4
+        height: 3
+      - src: img/poznanska/3.jpg
+        width: 4
+        height: 3
+      - src: img/poznanska/4.jpg
+        width: 4
+        height: 3
+      - src: img/poznanska/5.jpg
+        width: 4
+        height: 3
+  - name: Śliska
+    images:
+      - src: img/sliska/1.jpg
+        width: 4
+        height: 3
+      - src: img/sliska/2.jpg
+        width: 4
+        height: 3
+      - src: img/sliska/3.jpg
+        width: 4
+        height: 3
+      - src: img/sliska/4.jpg
+        width: 4
+        height: 3
+      - src: img/sliska/5.jpg
+        width: 4
+        height: 3
+      - src: img/sliska/6.jpg
+        width: 4
+        height: 3
+      - src: img/sliska/7.jpg
+        width: 4
+        height: 3
 ---
