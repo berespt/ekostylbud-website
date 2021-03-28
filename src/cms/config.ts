@@ -8,8 +8,8 @@ export default {
   locale: 'pl',
   media_folder: 'public/img',
   public_folder: 'img',
-  logo_url: 'https://ekostylbud.netlify.app/img/logo-cms.jpg',
-  site_url: 'https://ekostylbud.netlify.app',
+  logo_url: 'https://ekostylbud.pl/img/logo-cms.jpg',
+  site_url: 'https://ekostylbud.pl',
   collections: [
     {
       name: 'pages',
