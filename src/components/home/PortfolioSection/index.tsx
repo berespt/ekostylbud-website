@@ -22,7 +22,7 @@ const PortfolioSection: React.FC<Props> = ({ places }): JSX.Element => {
             }
           >
             <button
-              className="hover:text-ekogreen-600"
+              className="focus:outline-none hover:text-ekogreen-600"
               onClick={() => setActivePlace(i)}
             >
               {place.name}
