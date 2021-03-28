@@ -14,8 +14,11 @@ const HeroSection: React.FC<Props> = ({
       <div className="container flex flex-col items-center px-5 py-4 mx-auto md:flex-row">
         <div className="flex flex-col items-center mb-16 text-center lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:items-start md:text-left md:mb-0">
           <h1 className="mb-4 text-3xl font-bold text-gray-900 title-font sm:text-4xl">
-            {title}
+            Andrzej Pamuła
           </h1>
+          <h2 className="mb-4 text-2xl font-bold text-gray-800 title-font sm:text-3xl">
+            {title}
+          </h2>
           <p className="mb-8 leading-relaxed">{description}</p>
           <div className="flex justify-center">
             <a
