@@ -10,14 +10,7 @@ clients:
       którym nasze mieszkanie z rynku wtórnego będzie po prostu lepsze: lepiej
       docieplone, z sensownie rozmieszczoną instalacją kuchenną i sanitarną."
     name: Piotr
-  - description: >+
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco.
-
+  - description: Szybka i udana metamorfoza moich czterech ścian. Podwieszany sufit
+      w korytarzu to był strzał w dziesiątkę!
     name: Maria
-  - description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-      minim veniam, quis nostrud exercitation ullamco.
-    name: Adam Edamski
 ---
