@@ -5,7 +5,7 @@ const SEO = () => (
     <title>EkoStylBud</title>
     <meta
       name="description"
-      content="Wykończenia wnętrz na rynku pierwotnym i wtórnym w Krakowie i okolicach"
+      content="EKO-STYLBUD Usługi Remontowo-Budowlane Andrzej Pamuła. Wykończenia wnętrz na rynku pierwotnym i wtórnym w Krakowie i okolicach."
     ></meta>
     <meta
       content="https://ekostylbud.pl/favicon/og-image.png"
@@ -15,15 +15,15 @@ const SEO = () => (
     <meta content="website" property="og:type"></meta>
     <meta content="EkoStylBud" property="og:title"></meta>
     <meta
-      content="Wykończenia wnętrz na rynku pierwotnym i wtórnym w Krakowie i okolicach"
+      content="EKO-STYLBUD Usługi Remontowo-Budowlane Andrzej Pamuła. Wykończenia wnętrz na rynku pierwotnym i wtórnym w Krakowie i okolicach."
       property="og:description"
     ></meta>
 
     {/* Twitter */}
-    <meta name="twitter:title" content="NextWind"></meta>
+    <meta name="twitter:title" content="EkoStylBud"></meta>
     <meta
       name="twitter:description"
-      content="Wykończenia wnętrz na rynku pierwotnym i wtórnym w Krakowie i okolicach"
+      content="EKO-STYLBUD Usługi Remontowo-Budowlane Andrzej Pamuła. Wykończenia wnętrz na rynku pierwotnym i wtórnym w Krakowie i okolicach."
     ></meta>
     <meta
       name="twitter:image"
