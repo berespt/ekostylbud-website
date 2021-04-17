@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://ekostylbud.pl
+
+# Sitemaps
+Sitemap: https://ekostylbud.pl/sitemap.xml
